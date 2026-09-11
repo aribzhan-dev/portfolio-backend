@@ -1,0 +1,48 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# ── Virtual muhit ────────────────────────────────────────
+# Pipfile va Pipfile.lock GIT'GA QO'SHILADI — ular bog'liqliklar ro'yxati.
+# Faqat muhitning o'zi (papka) qo'shilmaydi.
+.venv/
+venv/
+env/
+
+# ── Maxfiy ma'lumot ──────────────────────────────────────
+# .env ichida SECRET_KEY bor — hech qachon git'ga tushmasin.
+# Namuna sifatida .env.example qo'shiladi.
+.env
+*.pem
+*.key
+
+# ── Baza ─────────────────────────────────────────────────
+# Bazani serverda seed_portfolio buyrug'i bilan yaratamiz.
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# ── Foydalanuvchi yuklagan fayllar ───────────────────────
+# Rasm va CV serverda saqlanadi, kodda emas.
+media/
+
+# ── Django static ────────────────────────────────────────
+staticfiles/
+static_root/
+
+# ── Testlar ──────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ── Loglar ───────────────────────────────────────────────
+*.log
+
+# ── IDE / OS ─────────────────────────────────────────────
+.idea/
+.vscode/
+.DS_Store
